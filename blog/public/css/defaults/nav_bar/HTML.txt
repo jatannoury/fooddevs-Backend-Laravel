@@ -1,0 +1,12 @@
+<div class="header-container">
+        <div class="header">
+            <img id="logo" src="../assets/images/logo/fooddevs_white.png" alt="">
+            <ul>
+                <li><a href="../html/landing_page.html">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Logout</a></li>
+                <img id="profile-pic" src="../assets/images/profile_pictures/dummy.png" alt="">
+            </ul>
+        </div>
+    </div>

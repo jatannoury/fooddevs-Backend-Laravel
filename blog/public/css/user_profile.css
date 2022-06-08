@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 30px;
+    height: 40px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.header ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 80px;
+    list-style: none;
+    align-items: center;
+}
+
+#profile-pic{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.header ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.header ul li a:hover{
+    border-bottom: 1px solid;
+}
+
+.header ul :nth-child(4){
+    margin-left: 40px;
+}
+
+.profile-section{
+    display: flex;
+    flex-wrap: wrap;
+    /* position: fixed; */
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.profile-section img{
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.profile-info{
+    margin-left: 30px;
+}
+
+#profile_name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.profile-section h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+#bio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    inline-size: 400px;
+}
+
+.stats{
+    
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.stats div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.photos-added{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#photos-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#photos-container div{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 20px;
+}
+
+#photos-container div label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+#photos-container img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius: 20px;
+}
+
+.recently-visited{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+@media (max-width: 700px){
+    .profile-info{
+        margin-left: 0;
+    }
+    
+    #bio{
+        inline-size: auto;
+    }
+}

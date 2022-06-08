@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 30px;
+    height: 40px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.header ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 80px;
+    list-style: none;
+    align-items: center;
+}
+
+#profile-pic{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.header ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.header ul li a:hover{
+    border-bottom: 1px solid;
+}
+
+.header ul :nth-child(4){
+    margin-left: 40px;
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+label{
+    margin-left: 50px;
+}
+
+input{
+    padding: 5px;
+    font-size: 14px;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+#review-container{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 30%;
+    border: 2px black solid;
+}
+#foo{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 30%;
+    border: 2px black solid;
+}
+#username{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#accept{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#decline{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#users{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+
+#submit{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
